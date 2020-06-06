@@ -32,7 +32,7 @@ sudo systemctl start vkbot
 ### Логи
 
 ```shell script
-sudo journalctl --follow -u myapp
+sudo journalctl --follow -u vkbot
 ```
 
 ### Схема базы
