@@ -1,0 +1,14 @@
+[Unit]
+Description=Vk bot service
+After=network.target
+[Service]
+ExecStart=/var/www/bin/www
+Restart=always
+Environment=PATH=/usr/bin:/usr/local/bin
+Environment=NODE_ENV=production
+Environment=PORT=80
+Environment=SECURITY_CODE=B87bJDGJ345te
+Environment=CONFIRM_CODE=954541a9
+WorkingDirectory=/var/www
+[Install]
+WantedBy=multi-user.target
